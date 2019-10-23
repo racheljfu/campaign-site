@@ -1,0 +1,13 @@
+body {
+  color: #FF0000; /* Dark gray */
+  background-color: #EEEEEE;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
