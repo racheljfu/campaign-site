@@ -23,7 +23,13 @@
 ## REPURPOSED ASSETS
 
 **Collected items (bought from Pittsburgh Center of Creative Reuse unless otherwise stated) ** 
-* Hard Rock Café: Saigon pin
+* Premodern Chinese artwork on hand fan
+* Floridian postcard
+* Hard Rock: Saigon guitar enamel pin
+* Italian scroll printed with fruits
+* Let Them Eat Seeds! Newspaper
+* Print of a painting of Pittsburgh in the 19th century
+* Prairie Crab Apple postcard
 
 **Fonts**
 * Allura
