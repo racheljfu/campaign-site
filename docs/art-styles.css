@@ -51,6 +51,7 @@ a:hover {
 
 /* Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+
   .sidebar-container {
     display: none;
     }
