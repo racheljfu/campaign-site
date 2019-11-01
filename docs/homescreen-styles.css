@@ -73,6 +73,7 @@ a:hover {
 
   .homepage-image {
     display: flex;
+    justify-content: center;
     text-align: center;
   }
 
@@ -96,7 +97,7 @@ a:hover {
   .homepage-image {
     display: flex;
     justify-content: center;
-    max-width: 200px;
+    text-align: center;
   }
 
   .welcome-subtext {
