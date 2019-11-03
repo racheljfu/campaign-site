@@ -46,7 +46,6 @@ a:hover {
 }
 
 .photos-image {
-  max-width: 50%;
   height: auto;
   padding: 20px 10px 10px 20px;
 }
@@ -82,6 +81,10 @@ a:hover {
     display: none;
     }
 
+    .photos-image {
+      max-width: 90%;
+    }
+
     h1 {
       display: flex;
       font-family: 'Allura', cursive;
@@ -108,6 +111,10 @@ a:hover {
     align-items: center;
     }
 
+    .photos-image {
+      max-width: 80%;
+    }
+
     .photos-info {
       justify-content: center;
     }
@@ -132,6 +139,10 @@ a:hover {
     font-family: 'Allura', cursive;
     font-size: 35px;
     justify-content: center;
+  }
+
+  .photos-image {
+    max-width: 55%;
   }
 
   .sidebar-container {

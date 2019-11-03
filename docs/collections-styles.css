@@ -46,7 +46,6 @@ a:hover {
 }
 
 .collections-image {
-  max-width: 50%;
   height: auto;
   padding: 20px 10px 10px 20px;
 }
@@ -89,6 +88,10 @@ a:hover {
       justify-content: center;
     }
 
+    .collections-image {
+      max-width: 90%;
+    }
+
     .collections-info {
       justify-content: center;
     }
@@ -108,7 +111,11 @@ a:hover {
     align-items: center;
     }
 
-    .photos-info {
+    .collections-image {
+      max-width: 90%;
+    }
+
+    .collections-info {
       justify-content: center;
     }
 
@@ -132,6 +139,10 @@ a:hover {
     font-family: 'Allura', cursive;
     font-size: 35px;
     justify-content: center;
+  }
+
+  .collections-image {
+    max-width: 55%;
   }
 
   .sidebar-container {

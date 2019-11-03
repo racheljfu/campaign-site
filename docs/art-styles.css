@@ -1,9 +1,9 @@
 /* PROBLEMS TO FIX IN ORDER OF URGENCY:
-Images too small for tablet and mobile display.
-Text not centering for tablet and mobile display.
+Image boxes not centering for mobile and tablet display.
 No white box showing up around each indiv-artwork-box (and sidebar)
 Sidebar links (sidebar-links-container) are wonky on desktop sidebar.
 Vertical POP image stuck as horizontal (or if rotated, it goes outside of the div)
+Github pages link NOT working.(404 file not found error.)
 */
 
 
@@ -55,7 +55,6 @@ a:hover {
 }
 
 .artwork-image {
-  max-width: 50%;
   height: auto;
   padding: 20px 10px 10px 20px;
 }
@@ -87,6 +86,10 @@ a:hover {
 
 /* Mobile */
 @media only screen and (max-width: 400px) {
+  .artwork-image {
+    max-width: 90%;
+  }
+
   .sidebar-container {
     display: none;
     }
@@ -106,6 +109,10 @@ a:hover {
 
 /* Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  .artwork-image {
+    max-width: 80%;
+  }
 
   .sidebar-container {
     display: none;
@@ -133,6 +140,10 @@ a:hover {
 @media only screen and (min-width: 961px) {
   .menu-container {
     display: none;
+  }
+
+  .artwork-image {
+    max-width: 55%;
   }
 
   h1 {
