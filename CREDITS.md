@@ -4,12 +4,13 @@ See assets.md for descriptions of all created assets
 ## Collected items
 ** bought from Pittsburgh Center of Creative Reuse unless otherwise stated) ** 
 * Premodern Chinese artwork on hand fan
-	* Date of creation and creator unknown
+	* Date of creation and creator unknown / 云眠芍 / 庚申夏
 * Floridian postcard
+	* Photo by Rindy Nyberg / Postmarked April 1986
 * Hard Rock: Saigon guitar enamel pin
 	* Date of creation and creator unknown
 * Italian grafiche tassotti printed with fruits
-	* Reproduction of a print / printed in Italy / creator unknown
+	* Original print / made in Italy / creator unknown
 * Let Them Eat Seeds! Newspaper
 	* Article by Robert Latham / photos by Ross Catanza / Pittsburgh Press Roto / Feb. 1974
 * Print of a painting of Pittsburgh in the 19th century

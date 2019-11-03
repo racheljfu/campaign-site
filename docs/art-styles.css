@@ -1,16 +1,24 @@
+/* PROBLEMS TO FIX IN ORDER OF URGENCY:
+Images too small for tablet and mobile display.
+Text not centering for tablet and mobile display.
+No white box showing up around each indiv-artwork-box (and sidebar)
+Sidebar links (sidebar-links-container) are wonky on desktop sidebar.
+Vertical POP image stuck as horizontal (or if rotated, it goes outside of the div)
+*/
+
+
 * {
   background-color: #F7F4F5;
   /* border: 1px solid red; */
 }
 
 .menu-container {
-  color: #fff;
   padding: 20px 0;
   display: flex;
   justify-content: center;
 }
 
-.menu {
+.menu-links {
   width: 900px;
   display: flex;
   justify-content: space-between;
@@ -35,18 +43,65 @@ a:hover {
   text-decoration: underline;
 }
 
+.artwork-box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left:-70px;
+  margin-top:-50px;
+}
+
+.artwork-image {
+  max-width: 50%;
+  height: auto;
+  padding: 20px 10px 10px 20px;
+}
+
+.artwork-info {
+  border: 1px solid #343F3E;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 15px;
+  padding: 20px 10px 10px 20px;
+}
+
+.indiv-artwork-box {
+  background-color: #F7F4F5;
+  margin-bottom: 40px;
+}
+
+.rotate-image {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
+
+/* MEDIA QUERIES START HERE */
+
+
 /* Mobile */
 @media only screen and (max-width: 400px) {
   .sidebar-container {
     display: none;
     }
 
-    .website-title-text {
+    h1 {
       display: flex;
       font-family: 'Allura', cursive;
       font-size: 25px;
       justify-content: center;
     }
+
+    .artwork-info {
+      justify-content: center;
+    }
+
 }
 
 /* Tablet */
@@ -56,7 +111,17 @@ a:hover {
     display: none;
     }
 
-    .website-title-text {
+    .artwork-box, .indiv-artwork.box {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .artwork-info {
+      justify-content: center;
+    }
+
+    h1 {
       display: flex;
       font-family: 'Allura', cursive;
       font-size: 30px;
@@ -70,7 +135,7 @@ a:hover {
     display: none;
   }
 
-  .website-title-text {
+  h1 {
     display: flex;
     font-family: 'Allura', cursive;
     font-size: 35px;
@@ -78,7 +143,8 @@ a:hover {
   }
 
   .sidebar-container {
-      background-color: #F7EDE2;
+      background-color: ##F7F4F5;
+      border: 1px solid #343F3E;
       border-top-left-radius:5px;
       border-top-right-radius:3px;
       left:100px;
@@ -86,25 +152,29 @@ a:hover {
       margin-left:10px;
       opacity:1;
       position:fixed;
-      width:100px;
+      width:150px;
       z-index:9999;
   }
 
-  .sidebar-links-menu: {
-    background-color: #F7EDE2;
+  .sidebar-container h2 {
+    background-color: ##F7F4F5;;
+    font-family: 'Abril Fatface', serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .sidebar-links-container: {
+    background-color: ##F7F4F5;;
     position:fixed;
     margin-top:150px;
     margin-left:10px;
     opacity:1;
     z-index:9999;
   }
-}
 
-.image-1800 {
-  max-width: 50%;
-  height: auto;
-}
-
-.information-1800 {
-  font-size: 15px;
+  .sidebar-links-container a, ul {
+    background-color: ##F7F4F5;
+    list-style-position: inside;
+    padding-left: 0;
+    float: left;
 }
