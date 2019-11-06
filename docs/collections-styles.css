@@ -155,8 +155,9 @@ a:hover {
       margin-left:10px;
       opacity:1;
       position:fixed;
-      width:150px;
+      width:200px;
       z-index:9999;
+      word-wrap: normal;
   }
 
   .sidebar-container h2 {
@@ -164,6 +165,7 @@ a:hover {
     font-family: 'Abril Fatface', serif;
     font-size: 30px;
     text-align: center;
+    word-wrap: normal;
   }
 
   .sidebar-links-container: {
