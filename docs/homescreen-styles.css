@@ -67,7 +67,7 @@ a:hover {
   .welcome-text {
     display: flex;
     font-family: 'Allura', cursive;
-    font-size: 25px;
+    font-size: 30px;
     justify-content: center;
   }
 
@@ -80,7 +80,7 @@ a:hover {
   .welcome-subtext {
     display: flex;
     font-family: 'Allura', cursive;
-    font-size: 25px;
+    font-size: 30px;
     justify-content: center;
   }
 }
@@ -90,7 +90,7 @@ a:hover {
   .welcome-text {
     display: flex;
     font-family: 'Allura', cursive;
-    font-size: 30px;
+    font-size: 35px;
     justify-content: center;
   }
 
@@ -103,7 +103,7 @@ a:hover {
   .welcome-subtext {
     display: flex;
     font-family: 'Allura', cursive;
-    font-size: 30px;
+    font-size: 35px;
     justify-content: center;
   }
 }
