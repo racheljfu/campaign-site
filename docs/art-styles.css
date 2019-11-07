@@ -1,9 +1,3 @@
-/* PROBLEMS TO FIX:
-Image boxes not centering for mobile and tablet display.
-Sidebar links (sidebar-links-container) are wonky on desktop sidebar.
-*/
-
-
 * {
   background-color: #F7F4F5;
   /* border: 1px solid red; */
@@ -27,7 +21,6 @@ Sidebar links (sidebar-links-container) are wonky on desktop sidebar.
 
 a {
   display: flex;
-  justify-content: flex-end;
   font-family: 'Nanum Gothic', sans-serif;
 }
 
