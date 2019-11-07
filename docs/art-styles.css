@@ -1,8 +1,6 @@
-/* PROBLEMS TO FIX IN ORDER OF URGENCY:
+/* PROBLEMS TO FIX:
 Image boxes not centering for mobile and tablet display.
 Sidebar links (sidebar-links-container) are wonky on desktop sidebar.
-Vertical POP image stuck as horizontal (or if rotated, it goes outside of the div)
-change size of header
 */
 
 
@@ -69,16 +67,6 @@ a:hover {
   background-color: #F7F4F5;
   margin-bottom: 40px;
 }
-
-.rotate-image {
-  -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-
 
 /* MEDIA QUERIES START HERE */
 
