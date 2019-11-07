@@ -72,14 +72,14 @@ a:hover {
 
 /* Mobile */
 @media only screen and (max-width: 400px) {
+  .sidebar-container {
+    display: none;
+    }
+
+
   .artwork-image {
     max-width: 90%;
   }
-
-  .sidebar-container {
-    display: none;
-    width: 0;
-    }
 
     h1 {
       display: flex;
@@ -90,6 +90,13 @@ a:hover {
 
     .artwork-info {
       justify-content: center;
+    }
+
+    .artwork-box, .indiv-artwork.box {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: -140px;
     }
 
 }
@@ -109,10 +116,12 @@ a:hover {
     position: absolute;
     justify-content: center;
     align-items: center;
+    margin-left: -170px;
     }
 
     .artwork-info {
       justify-content: center;
+      margin-right: 50px;
     }
 
     h1 {

@@ -91,6 +91,13 @@ a:hover {
       justify-content: center;
     }
 
+    .collections-box, .indiv-collections.box {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: -140px;
+    }
+
 }
 
 /* Tablet */
@@ -104,6 +111,8 @@ a:hover {
     position: absolute;
     justify-content: center;
     align-items: center;
+    margin-left: -170px;
+    }
     }
 
     .collections-image {
@@ -112,6 +121,7 @@ a:hover {
 
     .collections-info {
       justify-content: center;
+      margin-right: 25px;
     }
 
     h1 {

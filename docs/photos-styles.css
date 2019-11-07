@@ -91,6 +91,13 @@ a:hover {
       justify-content: center;
     }
 
+    .photos-box, .indiv-photos.box {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: -140px;
+    }
+
 }
 
 /* Tablet */
@@ -104,6 +111,7 @@ a:hover {
     position: absolute;
     justify-content: center;
     align-items: center;
+    margin-left: -170px;
     }
 
     .photos-image {
@@ -112,6 +120,7 @@ a:hover {
 
     .photos-info {
       justify-content: center;
+      margin-right: 50px;
     }
 
     h1 {
