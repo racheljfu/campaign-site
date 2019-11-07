@@ -21,6 +21,10 @@ Sidebar links (sidebar-links-container) are wonky on desktop sidebar.
   justify-content: space-between;
 }
 
+.sidebar-links-container {
+  padding: 5px;
+}
+
 a {
   display: flex;
   justify-content: flex-end;
@@ -150,7 +154,7 @@ a:hover {
       margin-left:10px;
       opacity:1;
       position:fixed;
-      width:150px;
+      width:170px;
       z-index:9999;
   }
 
