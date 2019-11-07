@@ -63,11 +63,6 @@ a:hover {
   padding: 20px 10px 10px 20px;
 }
 
-.indiv-artwork-box {
-  background-color: #F7F4F5;
-  margin-bottom: 40px;
-}
-
 /* MEDIA QUERIES START HERE */
 
 
@@ -130,6 +125,10 @@ a:hover {
     display: none;
   }
 
+  .artwork-info {
+      margin-right: 200px;
+  }
+
   .artwork-image {
     max-width: 55%;
   }
@@ -176,4 +175,5 @@ a:hover {
     list-style-position: inside;
     padding-left: 0;
     float: left;
+  }
 }

@@ -132,6 +132,10 @@ a:hover {
     justify-content: center;
   }
 
+  .photos-info {
+      margin-right: 200px;
+  }
+
   .photos-image {
     max-width: 55%;
   }
