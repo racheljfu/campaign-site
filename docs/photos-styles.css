@@ -154,7 +154,7 @@ a:hover {
   }
 
   .sidebar-container {
-      background-color: ##F7F4F5;
+      background-color: #F7F4F5;
       border: 1px solid #343F3E;
       border-top-left-radius:5px;
       border-top-right-radius:3px;
@@ -168,14 +168,14 @@ a:hover {
   }
 
   .sidebar-container h2 {
-    background-color: ##F7F4F5;;
+    background-color: #F7F4F5;
     font-family: 'Abril Fatface', serif;
     font-size: 30px;
     text-align: center;
   }
 
   .sidebar-links-container: {
-    background-color: ##F7F4F5;;
+    background-color: #F7F4F5;
     position:fixed;
     margin-top:150px;
     margin-left:10px;
@@ -184,7 +184,7 @@ a:hover {
   }
 
   .sidebar-links-container a, ul {
-    background-color: ##F7F4F5;
+    background-color: #F7F4F5;
     list-style-position: inside;
     padding-left: 0;
     float: left;

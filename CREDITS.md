@@ -25,6 +25,16 @@ See assets.md for descriptions of all created assets
 * Used under SIL Open Font License v1.10
 * Find at https://www.fontsquirrel.com/fonts/allura
 
+**Abril Fatface**
+* Designed by TypeTogether
+* Used under SIL Open Font License v1.10
+* Find at https://www.fontsquirrel.com/fonts/sbril-fatface
+
+**Nanum Gothic**
+* Designed by Sandoll Communications
+* Used under SIL Open Font License v1.10
+* Find at https://www.fontsquirrel.com/fonts/nanumgothic
+
 
 		
 

@@ -6,7 +6,7 @@
 * 1-800: digital illustration on Photoshop for iPad
 * FLOW: Sharpie / liquid watercolor illustration on posterboard
 * My Guardian: Sharpie / ballpoint pen / watercolor illustration on watercolor paper
-* POP: Watercolor / Sharpie / Crayola marker illustration on watercolor paper
+* Reaper's Call: digital illustration on Photoshop for iPad (2017)
 * The Door to Culture: Liquid watercolor / Sharpie / art marker on watercolor paper (2016)
 
 	
@@ -33,6 +33,8 @@
 
 **Fonts**
 * Allura
+* Abril Fatface
+* Nanum Gothic
 	
 
 **See CREDITS.md for more info
