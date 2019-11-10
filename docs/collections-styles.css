@@ -83,6 +83,13 @@ a:hover {
       justify-content: center;
     }
 
+    .collections-box, .indiv-collections.box {
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      margin-left: -150px;
+    }
+
     .collections-image {
       max-width: 90%;
     }
@@ -104,14 +111,16 @@ a:hover {
     position: absolute;
     justify-content: center;
     align-items: center;
+    margin-left: -170px;
     }
 
     .collections-image {
-      max-width: 90%;
+      max-width: 80%;
     }
 
     .collections-info {
       justify-content: center;
+      margin-right: 40px;
     }
 
     h1 {
@@ -146,7 +155,7 @@ a:hover {
   }
 
   .sidebar-container {
-      background-color: ##F7F4F5;
+      background-color: #F7F4F5;
       border: 1px solid #343F3E;
       border-top-left-radius:5px;
       border-top-right-radius:3px;
@@ -161,7 +170,7 @@ a:hover {
   }
 
   .sidebar-container h2 {
-    background-color: ##F7F4F5;;
+    background-color: #F7F4F5;
     font-family: 'Abril Fatface', serif;
     font-size: 30px;
     text-align: center;
@@ -169,7 +178,7 @@ a:hover {
   }
 
   .sidebar-links-container: {
-    background-color: ##F7F4F5;;
+    background-color: #F7F4F5;
     position:fixed;
     margin-top:150px;
     margin-left:10px;
@@ -178,7 +187,7 @@ a:hover {
   }
 
   .sidebar-links-container a, ul {
-    background-color: ##F7F4F5;
+    background-color: #F7F4F5;
     list-style-position: inside;
     padding-left: 0;
     float: left;
