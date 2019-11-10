@@ -38,7 +38,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.photos-box {
+.collections-box {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -91,7 +91,7 @@ a:hover {
       justify-content: center;
     }
 
-    .photos-box, .indiv-photos.box {
+    .photos-box, .indiv-photos-box {
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -107,7 +107,7 @@ a:hover {
     display: none;
     }
 
-    .photos-box, .indiv-photos.box {
+    .photos-box, .indiv-photos-box {
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -174,7 +174,7 @@ a:hover {
     text-align: center;
   }
 
-  .sidebar-links-container: {
+  .sidebar-links-container {
     background-color: #F7F4F5;
     position:fixed;
     margin-top:150px;

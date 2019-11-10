@@ -91,13 +91,6 @@ a:hover {
       justify-content: center;
     }
 
-    .collections-box, .indiv-collections.box {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    margin-left: -140px;
-    }
-
 }
 
 /* Tablet */
@@ -111,8 +104,6 @@ a:hover {
     position: absolute;
     justify-content: center;
     align-items: center;
-    margin-left: -200px;
-    }
     }
 
     .collections-image {
@@ -121,7 +112,6 @@ a:hover {
 
     .collections-info {
       justify-content: center;
-      margin-right: 25px;
     }
 
     h1 {
@@ -167,18 +157,19 @@ a:hover {
       position:fixed;
       width:200px;
       z-index:9999;
+      word-wrap: normal;
   }
 
   .sidebar-container h2 {
-    background-color: #F7F4F5;
+    background-color: ##F7F4F5;;
     font-family: 'Abril Fatface', serif;
     font-size: 30px;
     text-align: center;
     word-wrap: normal;
   }
 
-  .sidebar-links-container {
-    background-color: #F7F4F5;
+  .sidebar-links-container: {
+    background-color: ##F7F4F5;;
     position:fixed;
     margin-top:150px;
     margin-left:10px;
@@ -187,7 +178,7 @@ a:hover {
   }
 
   .sidebar-links-container a, ul {
-    background-color: #F7F4F5;
+    background-color: ##F7F4F5;
     list-style-position: inside;
     padding-left: 0;
     float: left;
