@@ -15,4 +15,4 @@ photography, and then items I've collected from reuse / thrift stores that I lik
 
 **Please see assets.md and CREDITS.md for more information!**
 
-** Here is a link to my website: https://rachelwonder.github.io/website-portfolio-2019fall ** 
+** Here is a link to my website: https://rachelwonder.github.io/campaign-site ** 
